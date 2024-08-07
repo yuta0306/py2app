@@ -621,6 +621,7 @@ def add_resources(
                     paths.resources / rsrc.destination / src.name,
                     ignore=ignore_filter,
                     symlinks=True,
+                    dirs_exist_ok=True,
                 )
 
 
